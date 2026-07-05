@@ -1,0 +1,28 @@
+ # ==========================================
+# 🛑 IGNORE MASSIVE DATASETS (Will block GitHub upload)
+# ==========================================
+PS_20174392719_1491204439457_log.csv
+Processed_Financial_Data.csv
+
+# ==========================================
+# 🟢 KEEP LIGHTWEIGHT/DEMO CSV FILES (Safe for GitHub)
+# ==========================================
+# We explicitly want to keep these two since they are small 
+# and required for the application's demo tracking to work!
+# (Note: Git tracks them by default, but we list them for clarity)
+sampled_1000_rows.csv
+Transaction_Identities.csv
+
+# ==========================================
+# 🔒 IGNORE LOCAL DATABASES & CACHE
+# ==========================================
+*.db
+__pycache__/
+*.pyc
+
+# ==========================================
+# 🐍 IGNORE VIRTUAL ENVIRONMENT
+# ==========================================
+venv/
+.venv/
+env/
